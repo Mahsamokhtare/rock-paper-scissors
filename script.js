@@ -50,7 +50,7 @@ rl.question(
     playerChoice.toLocaleLowerCase();
     console.log(`You chose ${playerChoice}`);
     const computerChoice = array[Math.floor(Math.random() * array.length)];
-    console.log(`Computer choose: ${computerChoice}`);
+    console.log(`Computer chose: ${computerChoice}`);
 
     if (computerChoice === playerChoice) {
       console.log("It's a tie!");
@@ -61,7 +61,7 @@ rl.question(
     ) {
       console.log("You win :)))))");
     } else {
-      console.log("You lose :((((");
+      console.log("You lost :((((");
       console.log("Try again!");
     }
     rl.close();
