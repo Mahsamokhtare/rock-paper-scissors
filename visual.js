@@ -60,8 +60,7 @@ scissorContainer.addEventListener("click", () => {
   if (computerChoice === "scissor") {
     computerScissorContainer.classList.add("self-start");
     computerScissorContainer.classList.add("transition-all", "duration-700");
-
-    tie.classList.remove("hidden");
+  tie.classList.remove("hidden");
   } else if (computerChoice === "rock") {
     computerRockContainer.classList.add("self-start");
     computerRockContainer.classList.add("transition-all", "duration-700");
